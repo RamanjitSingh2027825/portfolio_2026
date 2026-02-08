@@ -1,0 +1,27 @@
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  line-height: 1.8;
+}
+
+.about-text {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  text-align: justify;
+}
+
+.about-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Add a drop cap or some flourish for the first paragraph */
+.about-text:first-child::first-letter {
+  font-size: 3rem;
+  font-weight: 700;
+  float: left;
+  line-height: 1;
+  margin-right: 10px;
+  color: var(--accent-color);
+}

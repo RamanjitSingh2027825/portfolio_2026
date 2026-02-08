@@ -1,0 +1,109 @@
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-lg);
+}
+
+.education-card, .cert-item, .honor-card {
+  margin-bottom: var(--spacing-md);
+  transition: transform 0.2s;
+}
+
+.education-card:hover, .cert-item:hover, .honor-card:hover {
+  transform: translateX(5px);
+  background: var(--bg-card-hover);
+}
+
+.edu-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.edu-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: white;
+  padding: 2px;
+}
+
+.school-name {
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+  color: var(--text-primary);
+}
+
+.degree {
+  font-size: 0.95rem;
+  color: var(--accent-color);
+  margin-bottom: 0;
+}
+
+.edu-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-sm);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding-bottom: 10px;
+}
+
+.edu-activities {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+/* Certifications */
+.cert-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.cert-name {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.cert-meta {
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  display: flex; 
+  flex-direction: column;
+}
+
+.cert-issuer {
+  color: var(--accent-color);
+}
+
+/* Honors */
+.honor-title {
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  margin-bottom: 5px;
+}
+
+.honor-issuer {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.honor-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}

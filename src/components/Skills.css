@@ -1,0 +1,64 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-container::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(100,108,255,0.05) 0%, rgba(0,0,0,0) 70%);
+  animation: rotate 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.skills-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.skill-tag {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-card-hover);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: default;
+  animation: fadeInUp 0.5s backwards;
+}
+
+.skill-tag:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(100, 108, 255, 0.4);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
