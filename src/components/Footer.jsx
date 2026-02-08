@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
   const { personalInfo } = portfolioData;
   const currentYear = new Date().getFullYear();
-  const [whatsappMessage, setWhatsappMessage] = useState("Hi Raman! I found your portfolio and would like to connect.");
+  const [whatsappMessage, setWhatsappMessage] = useState("Hi Ramanjit Singh! I found your portfolio and would like to connect.");
 
   const handleWhatsappClick = () => {
     const encodedMessage = encodeURIComponent(whatsappMessage);
