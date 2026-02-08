@@ -57,7 +57,7 @@ export const portfolioData = {
       degree: "Senior Secondary, XII, Non Medical",
       duration: "Apr 2018 - Mar 2020",
       grade: "91%",
-      logo: "", // No logo provided
+      logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHJEObLeCi6BQ/company-logo_100_100/company-logo_100_100/0/1696522892551?e=1772064000&v=beta&t=ES1CyYGvf9E5-7QuKigRKlu5LRWGOyyHdvw5ivj6L-k", // No logo provided
       activities: "Participated in IHO 2019, District Level Inter School Science Fair."
     }
   ],
