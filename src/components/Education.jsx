@@ -35,8 +35,13 @@ const Education = () => {
             <div className="honors-list">
                {honors.map((honor, index) => (
                  <div className="honor-card glass-card" key={index}>
-                   <h3 className="honor-title">{honor.title}</h3>
-                   <p className="honor-issuer">{honor.issuer} | {honor.date}</p>
+                   <div className="honor-header">
+                      {honor.logo && <img src={honor.logo} alt={honor.issuer} className="honor-logo" />}
+                      <div>
+                        <h3 className="honor-title">{honor.title}</h3>
+                        <p className="honor-issuer">{honor.issuer} | {honor.date}</p>
+                      </div>
+                   </div>
                    {honor.description && <p className="honor-desc">{honor.description}</p>}
                    {honor.score && <p className="honor-score">Score: {honor.score}</p>}
                  </div>
@@ -50,10 +55,13 @@ const Education = () => {
             <div className="certs-list">
               {certifications.map((cert, index) => (
                 <div className="cert-item glass-card" key={index}>
-                  <h3 className="cert-name">{cert.name}</h3>
-                  <div className="cert-meta">
-                    <span className="cert-issuer">{cert.issuer}</span>
-                    <span className="cert-date">{cert.date}</span>
+                  {cert.logo && <img src={cert.logo} alt={cert.issuer} className="cert-logo" />}
+                  <div className="cert-content">
+                    <h3 className="cert-name">{cert.name}</h3>
+                    <div className="cert-meta">
+                      <span className="cert-issuer">{cert.issuer}</span>
+                      <span className="cert-date">{cert.date}</span>
+                    </div>
                   </div>
                 </div>
               ))}

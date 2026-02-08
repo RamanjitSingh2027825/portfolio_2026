@@ -28,6 +28,8 @@
   --text-gradient-end: #ad5389;
   --accent-color: #646cff;
   --accent-glow: rgba(100, 108, 255, 0.5);
+  --cursor-color: #ffffff;
+  --border-color: rgba(255, 255, 255, 0.1);
 }
 
 [data-theme="light"] {
@@ -42,6 +44,8 @@
   --text-gradient-end: #ec4899; /* Pink */
   --accent-color: #4f46e5;
   --accent-glow: rgba(79, 70, 229, 0.3);
+  --cursor-color: #000000;
+  --border-color: rgba(0, 0, 0, 0.1);
 }
 
 body, .header, .glass-card, button, .nav-link {

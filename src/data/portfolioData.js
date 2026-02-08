@@ -1,3 +1,20 @@
+import sifarsLogo from '../assets/sifars_logo.jpeg';
+import internshalaLogo from '../assets/internshala.jpeg';
+import ggiLogo from '../assets/ggi.jpeg';
+import psebLogo from '../assets/pseb.jpeg';
+import satyugLogo from '../assets/satyug-darshan-trust.png';
+import sbssuLogo from '../assets/sbssu.jpeg';
+import gnaLogo from '../assets/gna-university.png';
+import sololearnLogo from '../assets/sololearn.png';
+import codingNinjasLogo from '../assets/coding-ninjas.jpeg';
+import hackerRankLogo from '../assets/hacker-rank.png';
+import googleLogo from '../assets/google.png';
+import scalerLogo from '../assets/scaler-academy.jpg';
+import ciscoThingQbatorLogo from '../assets/cisco-thingqbator.jpeg';
+import ciscoLogo from '../assets/cisco.jpg';
+import studySectionLogo from '../assets/study-section-logo.png';
+import profileImg from '../assets/ramanjit-singh.jpg';
+
 export const portfolioData = {
   personalInfo: {
     name: "Ramanjit Singh",
@@ -6,7 +23,7 @@ export const portfolioData = {
     phone: "6283371390",
     linkedin: "https://www.linkedin.com/in/ramanbainsedu214/",
     location: "Patiala, Punjab, India",
-    profileImage: "https://media.licdn.com/dms/image/v2/D5603AQEZNLalnZisKA/profile-displayphoto-shrink_200_200/B56Zum732yIMAY-/0/1768032272917?e=1772064000&v=beta&t=7Y8li-mP7f8PJN2_UhMTSsuxxUY3zR-zdbz-OOKqFg8",
+    profileImage: profileImg,
     about: "I am an SDE II at Sifars, specializing in Generative AI, Agentic Workflows, and Full-Stack Systems. My passion lies in bridging the gap between complex LLM capabilities and practical, user-centric applications.\n\nWith a rapid progression from Intern to SDE II, I have architected and deployed multiple production-grade RAG pipelines, real-time voice agents, and automation suites. I rely on a modern stack including Python, React, AWS, Docker, and Vector Databases to build scalable and efficient solutions.\n\nBeyond code, I am a hackathon winner and technical writer, constantly exploring the edge of what's possible with AI."
   },
   experience: [
@@ -15,7 +32,7 @@ export const portfolioData = {
       role: "SDE II",
       duration: "Jan 2026 - Present",
       location: "Remote",
-      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGNpzfliyKTsA/company-logo_200_200/company-logo_200_200/0/1630590574382/sifars_logo?e=1772064000&v=beta&t=e5LRxyR4IHLWfywFt5RbsnA8jZ-5nsKZOsbUTAEPoT0",
+      logo: sifarsLogo,
       description: "Full-time. specialized in Artificial Intelligence (AI) and API development."
     },
     {
@@ -23,7 +40,7 @@ export const portfolioData = {
       role: "SDE I",
       duration: "Jul 2024 - Dec 2025",
       location: "Remote",
-      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGNpzfliyKTsA/company-logo_200_200/company-logo_200_200/0/1630590574382/sifars_logo?e=1772064000&v=beta&t=e5LRxyR4IHLWfywFt5RbsnA8jZ-5nsKZOsbUTAEPoT0",
+      logo: sifarsLogo,
       description: "Full-time. Worked on AI integration, API development, and backend systems."
     },
     {
@@ -31,7 +48,7 @@ export const portfolioData = {
       role: "Software Engineer Intern",
       duration: "Jan 2024 - Jun 2024",
       location: "Patiala, Punjab, India (On-site)",
-      logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGNpzfliyKTsA/company-logo_200_200/company-logo_200_200/0/1630590574382/sifars_logo?e=1772064000&v=beta&t=e5LRxyR4IHLWfywFt5RbsnA8jZ-5nsKZOsbUTAEPoT0",
+      logo: sifarsLogo,
       description: "Internship. Gained experience in teamwork, Machine Learning, and software development practices."
     },
     {
@@ -39,7 +56,7 @@ export const portfolioData = {
       role: "Machine Learning Trainee",
       duration: "Jul 2022 - Sep 2022",
       location: "Remote",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP1VDymcuhCr0iAYAeTMjWf765VNqamh1u_A&s", // Generic placeholder or none
+      logo: internshalaLogo,
       description: "Trainee. Learned Machine Learning concepts, Decision Trees, and Python libraries like NumPy."
     }
   ],
@@ -49,7 +66,7 @@ export const portfolioData = {
       degree: "Bachelor of Technology - BTech, Computer Science",
       duration: "Apr 2020 - Jul 2024",
       grade: "8.4",
-      logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGO71oHhnCFkg/company-logo_200_200/company-logo_200_200/0/1655294654924/ggi_gulzar_group_of_institutes_logo?e=1772064000&v=beta&t=QtcAqA0FwsgfsQmUTEcxPfMPo-8cdgd9BH3U_aKpJ0g",
+      logo: ggiLogo,
       activities: "Member Coordinator, S3A - Student's Society for Scientific Advancement; Participant in ROBOMANIA 2022, GNA Hackathon 1.0, SMART Hackathon, and International Humanity Olympiad 2k23."
     },
     {
@@ -57,7 +74,7 @@ export const portfolioData = {
       degree: "Senior Secondary, XII, Non Medical",
       duration: "Apr 2018 - Mar 2020",
       grade: "91%",
-      logo: "https://media.licdn.com/dms/image/v2/D4D0BAQHJEObLeCi6BQ/company-logo_100_100/company-logo_100_100/0/1696522892551?e=1772064000&v=beta&t=ES1CyYGvf9E5-7QuKigRKlu5LRWGOyyHdvw5ivj6L-k", // No logo provided
+      logo: psebLogo,
       activities: "Participated in IHO 2019, District Level Inter School Science Fair."
     }
   ],
@@ -150,46 +167,51 @@ export const portfolioData = {
       title: "9th International Humanity Olympiad 2k23",
       issuer: "Satyug Darshan Vasundhara",
       date: "Apr 2023",
-      score: "83%"
+      score: "83%",
+      logo: satyugLogo
     },
     {
       title: "SMART Hackathon Participant",
       issuer: "SBSSU, Firozpur",
       date: "Feb 2023",
-      description: "National Level Hackathon collaboration with Google Developers Group"
+      description: "National Level Hackathon collaboration with Google Developers Group",
+      logo: sbssuLogo
     },
     {
       title: "GNA Hackathon 1.0 (Top 15)",
       issuer: "GNA University",
       date: "Nov 2022",
-      description: "Runner up among 200+ teams"
+      description: "Runner up among 200+ teams",
+      logo: gnaLogo
     },
     {
       title: "8th International Humanity Olympiad 2022",
       issuer: "Satyug Darshan Vasundhara",
       date: "Aug 2022",
-      description: "Top 3% Runner up"
+      description: "Top 3% Runner up",
+      logo: satyugLogo
     },
     {
       title: "5th International Humanity Olympiad 2019",
       issuer: "Satyug Darshan Vasundhara",
       date: "Sep 2019",
-      description: "Top 500 Runner up"
+      description: "Top 500 Runner up",
+      logo: satyugLogo
     }
   ],
   certifications: [
-    { name: "Web Development", issuer: "Sololearn", date: "Jul 2023" },
-    { name: "OOPS in Java", issuer: "Coding Ninjas", date: "Oct 2022" },
-    { name: "SQL Intermediate", issuer: "Sololearn", date: "Jun 2023" },
-    { name: "SQL Introduction", issuer: "Sololearn", date: "Jun 2023" },
-    { name: "Introduction to Java", issuer: "Sololearn", date: "Jul 2023" },
-    { name: "SQL (Basic)", issuer: "HackerRank", date: "Jul 2023" },
-    { name: "Foundations of Cybersecurity", issuer: "Google", date: "May 2023" },
-    { name: "Computer Networks", issuer: "Scaler", date: "Mar 2023" },
-    { name: "Machine Learning Training", issuer: "Internshala", date: "Sep 2022" },
-    { name: "Machine Learning & Image Processing", issuer: "Cisco ThingQbator", date: "Aug 2022" },
-    { name: "Python Essentials 1", issuer: "Cisco", date: "Jul 2022" },
-    { name: "Robomania 2022", issuer: "GGI", date: "Mar 2022" },
-    { name: "Python Exam", issuer: "StudySection", date: "Jul 2022" }
+    { name: "Web Development", issuer: "Sololearn", date: "Jul 2023", logo: sololearnLogo },
+    { name: "OOPS in Java", issuer: "Coding Ninjas", date: "Oct 2022", logo: codingNinjasLogo },
+    { name: "SQL Intermediate", issuer: "Sololearn", date: "Jun 2023", logo: sololearnLogo },
+    { name: "SQL Introduction", issuer: "Sololearn", date: "Jun 2023", logo: sololearnLogo },
+    { name: "Introduction to Java", issuer: "Sololearn", date: "Jul 2023", logo: sololearnLogo },
+    { name: "SQL (Basic)", issuer: "HackerRank", date: "Jul 2023", logo: hackerRankLogo },
+    { name: "Foundations of Cybersecurity", issuer: "Google", date: "May 2023", logo: googleLogo },
+    { name: "Computer Networks", issuer: "Scaler", date: "Mar 2023", logo: scalerLogo },
+    { name: "Machine Learning Training", issuer: "Internshala", date: "Sep 2022", logo: internshalaLogo },
+    { name: "Machine Learning & Image Processing", issuer: "Cisco ThingQbator", date: "Aug 2022", logo: ciscoThingQbatorLogo },
+    { name: "Python Essentials 1", issuer: "Cisco", date: "Jul 2022", logo: ciscoLogo },
+    { name: "Robomania 2022", issuer: "GGI", date: "Mar 2022", logo: ggiLogo },
+    { name: "Python Exam", issuer: "StudySection", date: "Jul 2022", logo: studySectionLogo }
   ]
 };
